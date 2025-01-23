@@ -1,4 +1,5 @@
 %syntax-version=1.0.0
 %project=fasms-db
 
-appschema 2025-01-23T12:51:52Z feng liu <liufengsg2008@gmail.com> # Add schema for govtech.
+appschema 2025-01-23T12:51:52Z feng liu <liufengsg2008@gmail.com> # add schema for govtech.
+create-family-table [appschema] 2025-01-23T13:28:38Z feng liu <liufengsg2008@gmail.com> # create family table
