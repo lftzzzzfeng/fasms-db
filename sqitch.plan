@@ -3,3 +3,10 @@
 
 appschema 2025-01-23T12:51:52Z feng liu <liufengsg2008@gmail.com> # add schema for govtech.
 create-family-table [appschema] 2025-01-23T13:28:38Z feng liu <liufengsg2008@gmail.com> # create family table
+create-applicants-table [create-family-table] 2025-01-24T00:23:51Z feng liu <liufengsg2008@gmail.com> # create applicants table
+create-schemes-table [create-applicants-table] 2025-01-24T00:39:56Z feng liu <liufengsg2008@gmail.com> # create schemes table
+create-criteria-table [create-schemes-table] 2025-01-24T00:44:48Z feng liu <liufengsg2008@gmail.com> # create criteria table
+create-scheme_criterion_mapping-table [create-criteria-table] 2025-01-24T00:51:01Z feng liu <liufengsg2008@gmail.com> # create scheme_criterion_mapping table
+create-benefits-table [create-scheme_criterion_mapping-table] 2025-01-24T00:59:09Z feng liu <liufengsg2008@gmail.com> # create benefits table
+create-scheme_benefit_mapping-table [create-benefits-table] 2025-01-24T01:11:01Z feng liu <liufengsg2008@gmail.com> # create scheme_benefit_mapping table
+create-applications-table [create-scheme_benefit_mapping-table] 2025-01-24T01:14:43Z feng liu <liufengsg2008@gmail.com> # create applications table
